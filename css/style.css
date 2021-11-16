@@ -107,7 +107,7 @@ h4 {
 /* Header */
 .header {
     height: 530px;
-    background: url(../img/header.jpg) no-repeat center center / cover;
+    background-color: 292c33;
 }
 
 .header nav {
@@ -116,6 +116,7 @@ h4 {
     padding: 20px 40px;
     z-index: 2;
     position: relative;
+    border: solid 1px red;
 }
 
 .header nav .login-btn {
@@ -135,21 +136,20 @@ h4 {
 }
 
 .header .logo {
-    width: 270px;
-    margin: 20px 0;
+    width: 100px;
+    border: solid 1px red;
 }
 
 .header .header-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
     margin-top: 30px;
 }
 
 .header .header-text-1 {
     font-size: 22px;
-    font-weight: bold;
 }
 
 .header .header-text-2 {
@@ -320,12 +320,12 @@ h4 {
 
 /* Footer */
 .footer {
-    background: #ebedf2;
-    color: #333;
+    background: #292c33;
+    color: rgb(250, 250, 250);
 }
 
 .footer a {
-    color: #333;
+    color: rgb(255, 255, 255);
 }
 
 .footer-container {
