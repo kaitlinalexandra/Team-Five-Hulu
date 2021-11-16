@@ -1,0 +1,22 @@
+.logo{
+    height: 24px !important;
+    width: auto !important;
+    margin-right: 24px !important;
+  }
+  .navbar-light a{
+    color: white !important;
+  }
+  .hero-img{
+    height: 80px;
+    width: auto;
+  }
+  .my_stuff {
+    height: calc(100vh - 20px);
+    background: url(../img/SNL_stage.png) no-repeat center center / cover;
+  }
+
+  .hero-content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+  }
