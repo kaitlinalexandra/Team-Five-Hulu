@@ -118,7 +118,7 @@ h4 {
     padding: 20px 40px;
     z-index: 2;
     position: relative;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .header nav .login-btn {
@@ -135,12 +135,12 @@ h4 {
     display: flex;
     justify-content: space-evenly;
     width: 35%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .header .logo {
     width: 100px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .header .header-content {
@@ -327,7 +327,7 @@ h4 {
 .footer {
     background: #292c33;
     color: rgb(250, 250, 250);
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .footer a {
@@ -346,7 +346,7 @@ h4 {
     display: flex;
     justify-content: space-evenly;
     width: 2000px;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-weight: lighter;
 }
 
