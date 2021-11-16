@@ -112,7 +112,7 @@ h4 {
 
 .header nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 20px 40px;
     z-index: 2;
     position: relative;
@@ -126,6 +126,12 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.header .nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 .header .logo {
