@@ -6,11 +6,11 @@
     color: white !important;
   }
   .hero-img{
-    height: 80px;
+    height: 115px;
     width: auto;
   }
   .my_stuff {
-    height: calc(100vh - 20px);
+    height: 80vh;
     background: url(../img/SNL_stage.png) no-repeat center center / cover;
   }
 
@@ -19,3 +19,23 @@
     display: flex;
     align-items: center;
   }
+
+  .hero_title_1 {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .hero_title_2 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 29px;
+  }
+
+  .btn-alt {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white !important; 
+  }
+

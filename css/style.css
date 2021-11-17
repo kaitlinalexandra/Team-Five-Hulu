@@ -52,8 +52,9 @@ img.profile {
 }
 
 img.NBC {
-  width: 2%;
-  height: 25px;
+    height: 55px;
+    width: auto;
+    float: right;
 }
 
 
