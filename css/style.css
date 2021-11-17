@@ -58,7 +58,6 @@ h4 {
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-top: 35px;
 }
 
 .btn-cta:hover {
@@ -81,10 +80,14 @@ h4 {
     color: #fff;
 }
 
+.legal-text-wrapper {
+    display: flex;
+}
+
 .legal-text {
-    font-size: 10px;
+    font-size: 12px;
     color: #ccc;
-    margin-top: 20px;
+    margin-left: 5px;
 }
 
 .sub-link {
@@ -114,7 +117,7 @@ h4 {
 
 .header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px 40px;
     z-index: 2;
     position: relative;
@@ -129,6 +132,13 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.header nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7%;
 }
 
 .header .nav-items {
@@ -153,13 +163,26 @@ h4 {
 }
 
 .header .header-text-1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .header .header-text-2 {
-    font-size: 18px;
+    font-size: 20px;
+    word-spacing: 4px;
+    margin-top: -15px;
+}
+.header .header-text-3 {
+    margin-top: 25px;
+    font-size: 20px;
     font-weight: lighter;
-    margin-top: 15px;
+}
+
+.pick-for-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38vw;
+    margin-top: 25px;
 }
 
 .header::after {
@@ -327,8 +350,7 @@ h4 {
 .footer {
     background: #292c33;
     color: rgb(250, 250, 250);
-    /* border: solid 1px red; */
-    margin-top: 5px;
+    padding-top: 50px;
 }
 
 .footer a {
@@ -338,6 +360,7 @@ h4 {
 .footer-container {
     max-width: 100vw;
     margin: auto;
+    display: flex;
     /* padding: 10px; */
     /* border: solid 1px red; */
 }
@@ -348,7 +371,6 @@ h4 {
     width: 2000px;
     /* border: solid 1px red; */
     font-weight: lighter;
-    margin-top: 50px;
 }
 
 .footer-lists .list-head {
@@ -359,10 +381,14 @@ h4 {
 }
 
 .divider {
-    width: 100%;
+    width: 100vw;
     height: 3px;
     border-top: 1px #ccc solid;
     margin: 50px 0;
+}
+
+.social-icons {
+    margin-left: 100px;
 }
 
 .social-icons img {
@@ -375,8 +401,12 @@ h4 {
 }
 
 .terms {
+    padding: 40px 20px;
+}
+
+.terms-items {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 /* Modal */
@@ -466,6 +496,23 @@ h4 {
 @media (max-width: 1100px) {
     .categories .covers {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .btn {
+        display: block;
+        background: #fff;
+        color: #333;
+        min-width: 15vw;
+        min-height: 5vh;
+        padding: 15px 20px 15px 20px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14px;
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-transform: uppercase;
     }
 }
 
