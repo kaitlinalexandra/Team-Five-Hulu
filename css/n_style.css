@@ -1,3 +1,7 @@
+body{
+  background-color: #1E2126;
+}
+
 .logo{
     height: 24px !important;
     width: auto !important;
@@ -9,7 +13,7 @@
     height: 115px;
     width: auto;
   }
-  .my_stuff {
+  .homepage {
     height: 80vh;
     background: url(../img/SNL_stage.png) no-repeat center center / cover;
   }
@@ -41,5 +45,55 @@
 
   .card{
     background-color: #292C33;
+    padding: 1px;
+  }
+
+  .card-section {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px 25px 0px 25px !important;
+    background-color: #1E2126;
+  }
+
+  .card-section-title {
+    display: inline-block;
+  }
+
+  h3.card-section-title {
+    color: #909296 ;
+  }
+
+  .card-section-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1E2126;
+  }
+
+  .card-section-top h2 {
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 18px; ;
+  }
+
+  .card-section-top h3 {
+    font-size: 14px
+  }
+
+  .card-body h5 {
+    font-size: 12px;
+    color: #909296;
+  }
+
+  .card-body h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .card-body h6 {
+    font-size: 14px;
   }
 
