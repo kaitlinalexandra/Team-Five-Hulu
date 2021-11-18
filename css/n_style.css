@@ -46,6 +46,10 @@ body{
   .card{
     background-color: #292C33;
     padding: 1px;
+    border: 1px solid #1e2126;
+  }
+  .card img{
+    width: 100%;
   }
 
   .card-section {
@@ -71,16 +75,18 @@ body{
     width: 100%;
     justify-content: space-between;
     background-color: #1E2126;
+    padding: 14px 22px 8px 20px;
   }
 
   .card-section-top h2 {
     font-weight: bold;
-    padding-top: 20px;
     font-size: 18px; ;
+    margin: 0px;
   }
 
   .card-section-top h3 {
-    font-size: 14px
+    font-size: 14px;
+    margin: 0px;
   }
 
   .card-body h5 {
