@@ -11,13 +11,13 @@
 <body>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
+<button type="button" class="btn btn-primary" id="launch" data-toggle="modal" data-target="#exampleModal">
+    Launch modal
   </button>
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+  <div class="modal fade tv_movie" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
@@ -26,12 +26,14 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="img\movie-category.png" class="movie">
-          <img src="img\tv-show-category.png" class="show">
+          <img src="img\movie-category.png" class="lg-card">
+         <!-- <p class="movie-text">Movies</p>-->
+          <img src="img\tv-show-category.png" class="lg-card">
+          <!--<p class="tv-text">TV Shows</p>-->
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-          <button type="button" class="btn btn-primary">Next</button>
+          <button type="button" class="btn btn-primary next">Next</button>
         </div>
       </div>
     </div>

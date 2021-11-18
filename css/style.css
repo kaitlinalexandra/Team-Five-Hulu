@@ -545,3 +545,44 @@ h4 {
   }
 }
 
+/* quiz modal */
+
+#launch{
+  background-color:#00ed82 !important;
+  border:#00ed82;
+}
+
+.modal-content{
+  display:flex;
+  justify-content: space-between;
+  position: absolute;
+  align-items:center;
+}
+
+#exampleModalLabel{
+  padding: 0px 27px;
+  font-size: 18px;
+  font-weight: medium;
+  color:#ccc;
+  margin:auto;
+  font-family:'Rubik'; 
+}
+
+.lg-card{
+  height:513px;
+  width:344px;
+  display:inline-block;
+}
+
+.modal-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn.btn-primary{
+  font-size: 17px;
+  background-color:#00ed82 !important;
+  border:#00ed82 !important;
+}
+
