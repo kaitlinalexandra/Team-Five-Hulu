@@ -595,9 +595,17 @@ h4 {
 }
 
 .lg-card{
-  height:513px;
-  width:344px;
-  display:inline-block;
+  height:370px;
+  width:244px;
+}
+
+.lg-card:hover{
+  cursor:pointer;
+}
+
+.lg-card:hover p{
+  opacity:.7;
+  transition-duration: .2s;
 }
 
 .sm-card{
@@ -649,10 +657,14 @@ h4 {
 
 .movies p{
   font-size: 36px;
+  color:white;
+  text-align:center;
 }
 
 .shows p{
   font-size: 36px;
+  color:white;
+  text-align:center;
 }
 
 .overlay-text {
