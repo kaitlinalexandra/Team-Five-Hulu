@@ -32,6 +32,31 @@ img {
     width: 100%;
 }
 
+img.hulu {
+    width: 5%;
+    height: 20px;
+    padding: -2px 5px 20px 100px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+}
+
+img.search {
+    width: 2%;
+    height: 25px;
+}
+
+img.profile {
+    width: 2%;
+    height: 25px;
+}
+
+img.NBC {
+    height: 55px;
+    width: auto;
+    float: right;
+}
+
 h3 {
     font-size: 26px;
     font-weight: 300;
@@ -41,6 +66,17 @@ h4 {
     color: #00ed82;
     font-size: 13px;
     text-transform: uppercase;
+}
+
+.homepage.h4 {
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
 }
 
 .btn {
@@ -113,6 +149,11 @@ h4 {
 .header {
     height: 530px;
     background-color: 292c33;
+}
+
+.homepage.header {
+    height: 530px;
+    background: url(../img/SNL_stage.png) no-repeat center center / cover;
 }
 
 .header nav {
@@ -407,6 +448,13 @@ h4 {
 .terms-items {
     display: flex;
     justify-content: space-around;
+}
+
+.card-group {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* Modal */
