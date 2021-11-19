@@ -15,7 +15,7 @@
     Launch modal
   </button>
   
-  <!-- Modal -->
+  <!--Movie vs TV Show Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
@@ -27,13 +27,194 @@
         </div>
         <div class="modal-body">
           <p class="question">Which would you rather watch right now?</p>
-          <div class= "container movies">
+          <div class= "col movies">
           <img src="img\movie-category.png" class="lg-card">
           <p class="overlay-text">Movies</p>
         </div>
-        <div class="container shows">
-          <img src="img\tv-show-category.png" class="lg-card">
+        <div class="col shows">
+          <a data-toggle="modal" href="#genreModal"><img src="img\tv-show-category.png" class="lg-card"></a>
           <p class="overlay-text">TV Shows</p>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Genre Modal -->
+  <div class="modal fade" id="genreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#">&#8249; LAST QUESTION</a>
+          <p class="question">What genre are you in the mood for?</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <a data-toggle="modal" href="#categoryModal"><img src="img\comedy-genre.png" class="sm-card"></a>
+            <p class="overlay-text">Comedy</p>
+            </div>
+            <div class="col">
+            <img src="img\drama-genre.png" class="sm-card">
+            <p class="overlay-text">Drama</p>
+            </div>
+            <div class="col">
+            <img src="img\mistery-genre.png" class="sm-card">
+            <p class="overlay-text">Mystery</p>
+            </div>
+            <div class="col">
+            <img src="img\action-genre.png" class="sm-card">
+            <p class="overlay-text">Action</p>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\sf-fantasy-genre.png" class="sm-card">
+            <p class="overlay-text">Sci-Fi & Fantasy</p>
+            </div>
+            <div class="col">
+            <img src="img\romance-genre.png" class="sm-card">
+            <p class="overlay-text">Romance</p>
+            </div>
+            <div class="col">
+            <img src="img\horror-genre.png" class="sm-card">
+            <p class="overlay-text">Horror</p>
+            </div>
+            <div class="col">
+            <img src="img\family-genre.png" class="sm-card">
+            <p class="overlay-text">Family</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Category Modal -->
+  <div class="modal fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#">&#8249; LAST QUESTION</a>
+          <p class="question">Pick a category:</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <a data-toggle="modal" href="#ratingModal"><img src="img\sitcom-category.png" class="sm-card"></a>
+            <p class="overlay-text">Sitcoms</p>
+            </div>
+            <div class="col">
+            <img src="img\binge-worthy-category.png" class="sm-card">
+            <p class="overlay-text">Binge-Worthy</p>
+            </div>
+            <div class="col">
+            <img src="img\animation-category.png" class="sm-card">
+            <p class="overlay-text">Animation</p>
+            </div>
+            <div class="col">
+            <img src="img\family-comedies-category.png" class="sm-card">
+            <p class="overlay-text">Family Comedies</p>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\classics-category.png" class="sm-card">
+            <p class="overlay-text">Classics</p>
+            </div>
+            <div class="col">
+            <img src="img\dramedies-category.png" class="sm-card">
+            <p class="overlay-text">Dramadies</p>
+            </div>
+            <div class="col">
+            <img src="img\action-comedies-category.png" class="sm-card">
+            <p class="overlay-text">Action Comedies</p>
+            </div>
+            <div class="col">
+            <img src="img\no-preference-category.png" class="sm-card">
+            <p class="overlay-text">No Preference</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Rating Modal -->
+  <div class="modal fade" id="ratingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#">&#8249; LAST QUESTION</a>
+          <p class="question">What's your rating preference?</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\g-rating-category.png" class="sm-card">
+            <p class="overlay-text-2">G</p>
+            <p class="overlay-text-3">General Audiences</p>
+            </div>
+            <div class="col">
+            <img src="img\pg-category.png" class="sm-card">
+            <p class="overlay-text-2">PG</p>
+            <p class="overlay-text-3">Parental Guidance Suggested</p>
+            </div>
+            <div class="col">
+            <img src="img\pg-13-category.png" class="sm-card">
+            <p class="overlay-text-2">PG-13</p>
+            <p class="overlay-text-3">Parents Strongly Cautioned</p>
+            </div>
+            <div class="col">
+            <img src="img\r-category.png" class="sm-card">
+            <p class="overlay-text-2">R</p>
+            <p class="overlay-text-3">Restricted</p>
+            </div>
+        </div>
+        </div>
+        <div class="container single">
+            <div class="row">
+            <div class= "col">
+            <img src="img\no-preference-category.png" class="sm-card">
+            <p class="overlay-text">No Preference</p>
+            </div>
+        </div>
         </div>
         </div>
         <!--
