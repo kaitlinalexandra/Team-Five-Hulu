@@ -38,4 +38,7 @@
     border: 1px white solid;
     color: white !important; 
   }
-
+.image-card-1{
+  background: url(../img/himym-img.png) no-repeat;
+  background-position: cover;
+}
