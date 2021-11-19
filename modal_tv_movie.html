@@ -16,7 +16,7 @@
   </button>
   
   <!-- Modal -->
-  <div class="modal fade tv_movie" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -26,15 +26,21 @@
           </button>
         </div>
         <div class="modal-body">
+          <p>Which would you rather watch right now?</p>
+          <div class= "container">
           <img src="img\movie-category.png" class="lg-card">
-         <!-- <p class="movie-text">Movies</p>-->
-          <img src="img\tv-show-category.png" class="lg-card">
-          <!--<p class="tv-text">TV Shows</p>-->
+          <p class="movies overlay-text">Movies</p>
         </div>
+        <div class="container">
+          <img src="img\tv-show-category.png" class="lg-card">
+          <p class="shows overlay-text">TV Shows</p>
+        </div>
+        </div>
+        <!--
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
           <button type="button" class="btn btn-primary next">Next</button>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
