@@ -576,9 +576,14 @@ h4 {
   background: linear-gradient(90deg, rgba(4,4,5,1) 0%, rgba(24,57,73,1) 50%) !important;
 }
 
-.modal-content p{
+.question{
   color:white;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
+}
+
+.modal-content a{
+  color: #979797;
+  font-size: 14px;
 }
 
 #exampleModalLabel{
@@ -592,6 +597,12 @@ h4 {
 .lg-card{
   height:513px;
   width:344px;
+  display:inline-block;
+}
+
+.sm-card{
+  height:130px;
+  width:170px;
   display:inline-block;
 }
 
@@ -623,17 +634,29 @@ h4 {
   color: white;
 }
 
-.container:hover{
+.col:hover{
   cursor:pointer;
 }
 
-.container:hover p{
+.col:hover p{
   opacity:.7;
   transition-duration: .2s;
 }
 
-.overlay-text {
+.col{
+  padding:10px !important;
+}
+
+.movies p{
   font-size: 36px;
+}
+
+.shows p{
+  font-size: 36px;
+}
+
+.overlay-text {
+  font-size: 30px;
   font-weight:medium;
   position: absolute;
   top: 50%;
