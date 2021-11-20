@@ -783,3 +783,6 @@ h4 {
   background: url(../img/himym-img.png) no-repeat;
   background-size: cover;
 }
+.card-img-overlay {
+  top: auto !important;
+}
