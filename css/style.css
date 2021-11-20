@@ -634,3 +634,252 @@ h4 {
         width: 350px;
     }
 }
+
+/* quiz modal */
+
+#launch {
+    background-color: #00ed82 !important;
+    border: #00ed82;
+}
+
+.close {
+    color: white !important;
+    padding-right: 30px !important;
+}
+
+.modal-header {
+    background-color: black;
+    width: 100%;
+    padding: 27px !important;
+    border-bottom: none !important;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+    border: none !important;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    font-family: "Rubik";
+    background: rgb(4, 4, 5) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(4, 4, 5, 1) 0%,
+        rgba(24, 57, 73, 1) 50%
+    ) !important;
+}
+
+.movietv {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    color: white;
+    padding: 20px 0px 0px 0px;
+}
+
+.modal-content a {
+    color: #979797;
+    font-size: 14px;
+}
+
+#exampleModalLabel {
+    padding: 0px 27px;
+    font-size: 18px;
+    font-weight: medium;
+    color: #fff;
+    margin: auto;
+}
+
+.lg-card {
+    height: 370px;
+    width: 244px;
+}
+
+.lg-card:hover {
+    cursor: pointer;
+}
+
+.lg-card:hover p {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+
+.sm-card {
+    height: 130px;
+    width: 170px;
+    display: inline-block;
+}
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    border-top: none !important;
+    width: 100%;
+    background: rgb(4, 4, 5) !important;
+    background: linear-gradient(
+        90deg,
+        rgba(4, 4, 5, 1) 0%,
+        rgba(24, 57, 73, 1) 50%
+    ) !important;
+}
+
+.btn {
+    min-width: 60px !important;
+    max-width: 120px !important;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+
+.container {
+    display: inline;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.movietv {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.col:hover {
+    cursor: pointer;
+}
+
+.col:hover p {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    padding: 10px !important;
+}
+
+.movies p {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.shows p {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.overlay-text {
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text-2 {
+    font-size: 28px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-text-3 {
+    width: 100%;
+    font-size: 11px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.single {
+    display: flex !important;
+    justify-content: flex-start;
+    padding-left: 0px !important;
+}
+
+/* recommended modal */
+
+.recommended {
+    text-align: right !important;
+    width: 100%;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+}
+
+.col-sm {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.rec-icon {
+    padding-bottom: 10px;
+    margin: auto;
+    height: 80px;
+    width: 70px;
+}
+
+.rec-icon:hover {
+    opacity: 0.7;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.icon-text {
+    color: white;
+}
+
+.xl-card {
+    height: 500px;
+    width: 330px;
+}
+
+.overlay-img {
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-card-1 {
+    background: url(../img/himym-img.png) no-repeat;
+    background-size: cover;
+}
+.card-img-overlay {
+    top: auto !important;
+}

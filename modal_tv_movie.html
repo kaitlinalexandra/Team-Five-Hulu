@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modal</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" id="launch" data-toggle="modal" data-target="#exampleModal">
+    Launch
+  </button>
+  
+  <!--Movie vs TV Show Modal -->
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="question">Which would you rather watch right now?</p>
+          <div class="container">
+          <div class="row">
+          <div class= "col movies">
+          <img src="img\movie-category.png" class="lg-card">
+          <p class="overlay-text">Movies</p>
+        </div>
+        <div class="col shows">
+          <a data-toggle="modal" href="#genreModal"><img src="img\tv-show-category.png" class="lg-card"></a>
+          <p class="overlay-text">TV Shows</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!-- Genre Modal -->
+  <div class="modal fade" id="genreModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal">&#8249; LAST QUESTION</a>
+          <p class="question">What genre are you in the mood for?</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <a data-toggle="modal" href="#categoryModal"><img src="img\comedy-genre.png" class="sm-card"></a>
+            <p class="overlay-text">Comedy</p>
+            </div>
+            <div class="col">
+            <img src="img\drama-genre.png" class="sm-card">
+            <p class="overlay-text">Drama</p>
+            </div>
+            <div class="col">
+            <img src="img\mistery-genre.png" class="sm-card">
+            <p class="overlay-text">Mystery</p>
+            </div>
+            <div class="col">
+            <img src="img\action-genre.png" class="sm-card">
+            <p class="overlay-text">Action</p>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\sf-fantasy-genre.png" class="sm-card">
+            <p class="overlay-text">Sci-Fi & Fantasy</p>
+            </div>
+            <div class="col">
+            <img src="img\romance-genre.png" class="sm-card">
+            <p class="overlay-text">Romance</p>
+            </div>
+            <div class="col">
+            <img src="img\horror-genre.png" class="sm-card">
+            <p class="overlay-text">Horror</p>
+            </div>
+            <div class="col">
+            <img src="img\family-genre.png" class="sm-card">
+            <p class="overlay-text">Family</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Category Modal -->
+  <div class="modal fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal">&#8249; LAST QUESTION</a>
+          <p class="question">Pick a category:</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <a data-toggle="modal" href="#ratingModal"><img src="img\sitcom-category.png" class="sm-card"></a>
+            <p class="overlay-text">Sitcoms</p>
+            </div>
+            <div class="col">
+            <img src="img\binge-worthy-category.png" class="sm-card">
+            <p class="overlay-text">Binge-Worthy</p>
+            </div>
+            <div class="col">
+            <img src="img\animation-category.png" class="sm-card">
+            <p class="overlay-text">Animation</p>
+            </div>
+            <div class="col">
+            <img src="img\family-comedies-category.png" class="sm-card">
+            <p class="overlay-text">Family Comedies</p>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\classics-category.png" class="sm-card">
+            <p class="overlay-text">Classics</p>
+            </div>
+            <div class="col">
+            <img src="img\dramedies-category.png" class="sm-card">
+            <p class="overlay-text">Dramadies</p>
+            </div>
+            <div class="col">
+            <img src="img\action-comedies-category.png" class="sm-card">
+            <p class="overlay-text">Action Comedies</p>
+            </div>
+            <div class="col">
+            <img src="img\no-preference-category.png" class="sm-card">
+            <p class="overlay-text">No Preference</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Rating Modal -->
+  <div class="modal fade" id="ratingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal">&#8249; LAST QUESTION</a>
+          <p class="question">What's your rating preference?</p>
+          <div class="container">
+            <div class="row">
+            <div class= "col">
+            <img src="img\g-rating-category.png" class="sm-card">
+            <p class="overlay-text-2">G</p>
+            <p class="overlay-text-3">General Audiences</p>
+            </div>
+            <div class="col">
+            <img src="img\pg-category.png" class="sm-card">
+            <p class="overlay-text-2">PG</p>
+            <p class="overlay-text-3">Parental Guidance Suggested</p>
+            </div>
+            <div class="col">
+            <img src="img\pg-13-category.png" class="sm-card">
+            <p class="overlay-text-2">PG-13</p>
+            <p class="overlay-text-3">Parents Strongly Cautioned</p>
+            </div>
+            <div class="col">
+            <img src="img\r-category.png" class="sm-card">
+            <p class="overlay-text-2">R</p>
+            <p class="overlay-text-3">Restricted</p>
+            </div>
+        </div>
+        </div>
+        <div class="container single">
+            <div class="row">
+            <div class= "col">
+            <a data-toggle="modal" href="#himym"><img src="img\no-preference-category.png" class="sm-card"></a>
+            <p class="overlay-text">No Preference</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Recommended Modal- HIMYM -->
+  <div class="modal fade" id="himym" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body recommended">
+          <a href="#" class="retake">RETAKE QUIZ &#8250;</a>
+          <div class="row results">
+          <div class= "col-sm">
+          <a data-toggle="modal" href="#lms"><img src="img\close-hulu-icon.png" class="rec-icon"></a>
+          <p class="icon-text">No Thanks</p>
+        </div>
+        <div class="col">
+          <img src="img\himym-img.png" class="xl-card">
+          <p class="description">S1 E1 - Pilot</p>
+          <img src="img\himym-logo-img.png" class="overlay-img">
+          <div class="buttons">
+          <button type="button" class="btn">PLAY</button>
+          <button type="button" class="btn btn-outline-light">DETAILS</button>
+        </div>
+        </div>
+        <div class="col-sm">
+            <img src="img\check-hulu.png" class="rec-icon">
+            <p class="icon-text">Yes! Add to My Stuff</p>
+          </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Recommended Modal- LMS -->
+  <div class="modal fade" id="lms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body recommended">
+          <a href="#" class="retake">RETAKE QUIZ &#8250;</a>
+          <div class="row results">
+          <div class= "col-sm">
+          <a data-toggle="modal" href="#b99"><img src="img\close-hulu-icon.png" class="rec-icon"></a>
+          <p class="icon-text">No Thanks</p>
+        </div>
+        <div class="col">
+          <img src="img\lms-img.png" class="xl-card">
+          <p class="description">S1 E1 - Pilot</p>
+          <img src="img\lms-logo-img.png" class="overlay-img">
+          <div class="buttons">
+          <button type="button" class="btn">PLAY</button>
+          <button type="button" class="btn btn-outline-light">DETAILS</button>
+        </div>
+        </div>
+        <div class="col-sm">
+            <img src="img\check-hulu.png" class="rec-icon">
+            <p class="icon-text">Yes! Add to My Stuff</p>
+          </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+   <!--Recommended Modal- B99 -->
+   <div class="modal fade" id="b99" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body recommended">
+          <a href="#" class="retake">RETAKE QUIZ &#8250;</a>
+          <div class="row results">
+          <div class= "col-sm">
+          <a data-toggle="modal" href="#mf"><img src="img\close-hulu-icon.png" class="rec-icon"></a>
+          <p class="icon-text">No Thanks</p>
+        </div>
+        <div class="col">
+          <img src="img\bnn-img.png" class="xl-card">
+          <p class="description">S1 E1 - Pilot</p>
+          <img src="img\bnn-logo-img.png" class="overlay-img">
+          <div class="buttons">
+          <button type="button" class="btn">PLAY</button>
+          <button type="button" class="btn btn-outline-light">DETAILS</button>
+        </div>
+        </div>
+        <div class="col-sm">
+            <img src="img\check-hulu.png" class="rec-icon">
+            <p class="icon-text">Yes! Add to My Stuff</p>
+          </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <!--Recommended Modal- mf -->
+  <div class="modal fade" id="mf" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body recommended">
+          <a href="#" class="retake">RETAKE QUIZ &#8250;</a>
+          <div class="row results">
+          <div class= "col-sm">
+          <a data-toggle="modal" href="#frasier"><img src="img\close-hulu-icon.png" class="rec-icon"></a>
+          <p class="icon-text">No Thanks</p>
+        </div>
+        <div class="col">
+          <img src="img\mf-img.png" class="xl-card">
+          <p class="description">S1 E1 - Pilot</p>
+          <img src="img\mf-logo-img.png" class="overlay-img">
+          <div class="buttons">
+          <button type="button" class="btn">PLAY</button>
+          <button type="button" class="btn btn-outline-light">DETAILS</button>
+        </div>
+        </div>
+        <div class="col-sm">
+            <img src="img\check-hulu.png" class="rec-icon">
+            <p class="icon-text">Yes! Add to My Stuff</p>
+          </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+   <!--Recommended Modal- frasier -->
+   <div class="modal fade" id="frasier" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PICK FOR ME</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body recommended">
+          <a href="#" class="retake">RETAKE QUIZ &#8250;</a>
+          <div class="row results">
+          <div class= "col-sm">
+          <img src="img\close-hulu-icon.png" class="rec-icon">
+          <p class="icon-text">No Thanks</p>
+        </div>
+        <div class="col">
+          <img src="img\frasier-img.png" class="xl-card">
+          <p class="description">S1 E1 - Pilot</p>
+          <img src="img\frasier-logo-img.png" class="overlay-img">
+          <div class="buttons">
+          <button type="button" class="btn">PLAY</button>
+          <button type="button" class="btn btn-outline-light">DETAILS</button>
+        </div>
+        </div>
+        <div class="col-sm">
+            <img src="img\check-hulu.png" class="rec-icon">
+            <p class="icon-text">Yes! Add to My Stuff</p>
+          </div>
+        </div>
+        </div>
+        <!--
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+          <button type="button" class="btn btn-primary next">Next</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
